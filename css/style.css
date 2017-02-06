@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+header, main, footer {
+    width: 100vw;
+    border: 2px solid black;
+}
+header {
+    height: 10vh;
+    padding: 5vh 0;
+    text-align: center;
+    font-size: 3rem;
+}
+main {
+    height: 70vh;
+}
+footer {
+    height:10vh;
+}
+#game-board {
+    width: 70vh;
+    height: 70vh;
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+.tile {
+    width: 33.33%;
+    height: 33.33%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    float: left;
+    font-size:150px;
+    text-align:center;
+}
+
+.reset {
+    margin-left: 330px;
+    background-color: red;
+}
